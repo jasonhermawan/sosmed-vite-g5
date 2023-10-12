@@ -1,13 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import InfoUser from './pages/info-user/InfoUser';
 
 function App() {
 
-  return (
-   <div>
-    
-   </div>
+  return  (
+    <InfoUser/>
   )
 }
 
-export default App
+export default App;
