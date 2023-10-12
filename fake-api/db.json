@@ -1,0 +1,19 @@
+{
+  "account": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "iniAdmin123!"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "caption": "Dummy Post",
+      "img": "https://tampang.com/tm_images/article/23398bd338b226aa.jpg",
+      "userId": 1,
+      "date": "2023-10-12"
+    }
+  ]
+}
