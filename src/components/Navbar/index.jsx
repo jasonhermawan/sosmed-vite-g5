@@ -1,5 +1,6 @@
 import React from 'react'
-import Logo from '../../assets/LOGO Z.png'
+// import Logo from '../../assets/LOGO Z.png'
+import Logo from '../../assets/LOGO_Z.png'
 import './navbar.css'
 import {AiFillHome, AiOutlineEllipsis} from 'react-icons/ai'
 import { Textarea, Avatar, Button } from '@chakra-ui/react'
@@ -14,10 +15,12 @@ import {
 } from '@chakra-ui/react'
 import { useDisclosure } from '@chakra-ui/react'
 import { Tooltip } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
 
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const navigate = useNavigate();
 
   return (
     <div id="navbar">
@@ -25,7 +28,7 @@ const Navbar = () => {
         <div id="logo-menu">
           <img src={Logo} alt="" />
         </div>
-        <div className="nav-menu">
+        <div className="nav-menu" onClick={()=>navigate("/timeline")}>
           <i class="fa-solid fa-house"></i>
           <h3>Home</h3>
         </div>

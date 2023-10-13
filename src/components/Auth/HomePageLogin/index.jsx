@@ -13,32 +13,35 @@ import React, { useState } from "react";
 // import axios from "axios";
 import { useNavigate } from "react-router-dom";
 // import { API_URL } from "../../../helper";
-import logo from "../../../assets/LOGO_Z_BLACK.png";
+import logo from "../../../assets/LOGO_Z.png";
+import { color } from "framer-motion";
 
 const Home = () => {
   const navigate = useNavigate();
 
   return (
     <Box
-      marginRight={250}
-      marginTop={150}
-      marginLeft={300}
+      paddingRight={250}
+      paddingTop={150}
+      paddingLeft={300}
       display="flex"
       justifyContent="space-between"
+      bgColor={"black"}
+      alignItems={"center"}
     >
       <Box>
         <Image src={logo} alt="Logo" w="300px" h="300px" />
       </Box>
       <Box width="600px">
         <Text
-          fontFamily="TwitterChipExtendedHeavy"
+          color={"white"}
           fontSize={64}
           fontWeight={700}
         >
           Hate X? Use Z now
         </Text>
         <Text
-          fontFamily="TwitterChirpExtendedHeavy"
+          color={"white"}
           fontSize={31}
           fontWeight={700}
           alignSelf="flex-end"
@@ -48,53 +51,52 @@ const Home = () => {
         <Box
           display={"flex"}
           flexDirection={"column"}
-          // gap={1}
-          // borderRadius={"20px"}
           marginTop={5}
         >
           <Button
-            bgColor={"black"}
+            bgColor={"white"}
+            color={"black"}
             borderRadius={20}
             width={300}
             marginTop={5}
-            colorScheme="teal"
           >
             Sign up with Google
           </Button>
           <Button
-            bgColor={"black"}
+            bgColor={"transparent"}
+            border={"solid 2px white"}
             borderRadius={20}
             width={300}
             marginTop={5}
-            colorScheme="teal"
+            color={"white"}
+            _hover={{color:"white"}}
           >
             Sign up with Apple
           </Button>
-          <Box position="relative" padding="10">
-            <Divider />
-            <AbsoluteCenter bg="white">
-              or
-            </AbsoluteCenter>
-          </Box>
+          <hr style={{marginTop:"30px"}} />
           <Button
-            bgColor={"blue"}
+            bgColor={"#3182CE"}
             borderRadius={20}
             width={300}
             marginTop={5}
             colorScheme="teal"
+            _hover={{bgColor:"#3182CE"}}
             onClick={() => navigate("/signup")}
           >
             Create Account
           </Button>
-          <Text fontSize={15}>
+          <Text mt={"20px"} fontSize={15} color={"white"}>
             By signing up, you agree to the Terms of Service and Privacy Policy,
             including Cookie Use.
           </Text>
-          <Text marginTop={5} fontSize={20}>
+          <Text mt={"20px"} fontSize={15} color={"white"} fontWeight={"500"}>
             Already have an account?
           </Text>
           <Button
-            bgColor={"black"}
+            mt={"20px"}
+            bgColor={"transparet"}
+            border={"solid 1px gray"}
+            color={"#3182CE"}
             borderRadius={20}
             width={300}
             colorScheme="black"

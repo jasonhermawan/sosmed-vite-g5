@@ -14,7 +14,7 @@ function PostsInfoUser(props) {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:3000/post';
+    const apiUrl = 'http://localhost:2023/post';
 
     axios.get(apiUrl)
       .then((response) => {

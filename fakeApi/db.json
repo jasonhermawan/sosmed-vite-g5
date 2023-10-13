@@ -29,6 +29,18 @@
       "username": "supratnoBakso",
       "email": "admin@gmail.com",
       "password": "iniAdmin123!"
+    },
+    {
+      "username": "uhuy",
+      "email": "uhuy@mail",
+      "password": "uhuy12345",
+      "id": 6
+    },
+    {
+      "username": "tes",
+      "email": "tes@mail.com",
+      "password": "tes12345678",
+      "id": 7
     }
   ],
   "post": [

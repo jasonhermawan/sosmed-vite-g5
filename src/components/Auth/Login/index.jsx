@@ -20,7 +20,7 @@ const Login = () => {
         if (response.data.length === 1) {
           dispatch(loginAction(response.data[0]))
           
-          navigate("/landpage");
+          navigate("/timeline");
         } else {
           setError("Email atau password salah"); // Set pesan error
         }

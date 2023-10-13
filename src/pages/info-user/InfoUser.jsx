@@ -7,11 +7,14 @@ import { BsThreeDots} from 'react-icons/bs';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import PostsInfoUser from '../../components/Posts-info-user/PostsInfoUser';
 import './infoUser.css'
+import Layout from '../../Layout'
 
 function InfoUser () {
   
 
-    return <Flex className='container'  position={"relative"} m={"auto"} w={"598.4px"}  minH={"150vh"} height={"150vh"} overflowY={"scroll"}   backgroundColor={"black"} flexDirection={"column"} border={"1px solid gray"}>
+    return (
+      <Layout>
+      <div className="info-user">
         <NavbarInfoUser/>
         <Box mt={"60px"}>
             <img src="https://pbs.twimg.com/profile_banners/76766018/1655740377/1500x500" alt="" />
@@ -35,7 +38,7 @@ function InfoUser () {
 
           {/* NAME PROFILE */}
 
-          <Box w={"100%"} h={"50px"}>
+          <Box w={"100%"} h={"50px"} mt={"20px"}>
           <Text  fontWeight={"bolder"} ml={"20px"} color={"white"} fontSize={"lg"}> ProfileUser</Text>
           <Text   ml={"20px"} color={"gray"} fontSize={"sm"}>@Username</Text>
           </Box>
@@ -56,7 +59,7 @@ function InfoUser () {
 
         {/* PAGES BAWAH  */}
 
-        <Tabs w={"100%"} color={"white"} h={"200px"} >
+        <Tabs w={"100%"} color={"white"} h={"200px"} mt={"20px"}>
   <TabList borderBottom={"1px solid gray"} display={"flex"} justifyContent={"space-evenly"}>
     <Tab w={"25%"} _hover={{backgroundColor:"rgba(239, 239, 240 , 0.1)" ,}} color={"white"}>Posts</Tab>
     <Tab  w={"25%"} _hover={{backgroundColor:"rgba(239, 239, 240 , 0.1)" ,}} color={"white"}>Replies</Tab>
@@ -70,7 +73,9 @@ function InfoUser () {
     </TabPanel>
   </TabPanels>
 </Tabs>
-    </Flex>
+    </div>
+    </Layout>
+    )
 }
 
 export default InfoUser;
