@@ -7,6 +7,7 @@ import Home from "./components/Auth/HomePageLogin";
 import Landpage from "./components/Auth/landpage";
 import { useState } from 'react'
 import './App.css'
+import InfoUser from './pages/info-user/InfoUser';
 import Timeline from './pages/Timeline'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/signup" element={<Register />} />
           <Route path="/signin" element={<Login />} />
           <Route path="/timeline" element={<Timeline />} />
+          <Route path="info-user" element={<InfoUser />} />
         </Routes>
     </ChakraProvider>
   );
