@@ -30,7 +30,7 @@ const Register = () => {
                   })
                   .then((response) => {
                     console.log("berhasil signup", response.data);
-                    // Arahkan pengguna ke halaman sign-in setelah berhasil mendaftar
+                    // Arahkan ke halaman sign-in setelah berhasil mendaftar
                     navigate("/signin");
                   })
                   .catch((error) => {

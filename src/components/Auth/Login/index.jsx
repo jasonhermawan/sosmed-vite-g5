@@ -3,19 +3,24 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { API_URL } from "../../../helper";
+import { useDispatch } from "react-redux";
+import { loginAction } from "../../../redux/action/accountAction";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(""); // State untuk pesan error
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleLogin = () => {
     axios
       .get(API_URL + `/account?email=${email}&password=${password}`)
       .then((response) => {
         if (response.data.length === 1) {
-          navigate("/home");
+          dispatch(loginAction(response.data[0]))
+          
+          navigate("/landpage");
         } else {
           setError("Email atau password salah"); // Set pesan error
         }

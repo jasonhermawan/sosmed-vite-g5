@@ -13,28 +13,10 @@
       "id": 2
     },
     {
-      "username": "nisfun",
-      "email": "nisfun@mail.com",
-      "password": "qwerty12345",
+      "username": "rendy",
+      "email": "rendy@mail.com",
+      "password": "asdfg12345",
       "id": 3
-    },
-    {
-      "username": "nisfun1",
-      "email": "nisfun@mail.com",
-      "password": "qwerty12345",
-      "id": 4
-    },
-    {
-      "username": "nisfun12",
-      "email": "nisfun12@mail.com",
-      "password": "qwerty123",
-      "id": 5
-    },
-    {
-      "username": "wahyudi",
-      "email": "wahyudi@mail.com",
-      "password": "qwertyzxcv",
-      "id": 6
     }
   ],
   "post": [
