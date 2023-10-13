@@ -1,0 +1,31 @@
+.acc-follow-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222934;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.acc-follow-card:hover {
+  background-color: #10151d;
+}
+
+.acc-detail {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.acc-follow-card h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.follow-icon {
+  font-size: 22px;
+  color: #3182CE;
+}

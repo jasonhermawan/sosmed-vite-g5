@@ -5,6 +5,30 @@
       "username": "Admin",
       "email": "admin@gmail.com",
       "password": "iniAdmin123!"
+    },
+    {
+      "id": 2,
+      "username": "jasonhermawan",
+      "email": "jason@gmail.com",
+      "password": "iniAdmin123!"
+    },
+    {
+      "id": 3,
+      "username": "nisfu",
+      "email": "admin@gmail.com",
+      "password": "iniAdmin123!"
+    },
+    {
+      "id": 4,
+      "username": "chandra",
+      "email": "admin@gmail.com",
+      "password": "iniAdmin123!"
+    },
+    {
+      "id": 5,
+      "username": "supratnoBakso",
+      "email": "admin@gmail.com",
+      "password": "iniAdmin123!"
     }
   ],
   "post": [
@@ -13,7 +37,62 @@
       "caption": "Dummy Post",
       "img": "https://tampang.com/tm_images/article/23398bd338b226aa.jpg",
       "userId": 1,
-      "date": "2023-10-12"
+      "date": "Fri Oct 13 2023, 10:42:45 AM"
+    },
+    {
+      "caption": "Selamat pagi",
+      "date": "Fri Oct 13 2023, 10:44:48 AM",
+      "id": 2
+    },
+    {
+      "caption": "Apa kabar semuanya",
+      "date": "Fri Oct 13 2023, 10:44:57 AM",
+      "id": 3
+    },
+    {
+      "caption": "Makan apa hari ini?",
+      "date": "Fri Oct 13 2023, 10:45:04 AM",
+      "id": 4
+    },
+    {
+      "caption": "Ini postingan Z",
+      "date": "Fri Oct 13 2023, 10:45:10 AM",
+      "id": 5
+    },
+    {
+      "caption": "Tes",
+      "date": "Fri Oct 13 2023, 10:49:33 AM",
+      "id": 6
+    },
+    {
+      "caption": "Halo semua",
+      "date": "Fri Oct 13 2023, 10:49:35 AM",
+      "id": 7
+    },
+    {
+      "caption": "tes lagi",
+      "date": "Fri Oct 13 2023, 10:51:38 AM",
+      "id": 8
+    },
+    {
+      "caption": "halo",
+      "date": "Fri Oct 13 2023, 10:53:53 AM",
+      "id": 9
+    },
+    {
+      "caption": "iya",
+      "date": "Fri Oct 13 2023, 11:01:05 AM",
+      "id": 10
+    },
+    {
+      "caption": "tes",
+      "date": "Fri Oct 13 2023, 11:03:58 AM",
+      "id": 11
+    },
+    {
+      "caption": "Laper",
+      "date": "Fri Oct 13 2023, 11:04:35 AM",
+      "id": 12
     }
   ]
 }

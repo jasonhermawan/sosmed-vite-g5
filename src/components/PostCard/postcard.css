@@ -1,0 +1,45 @@
+.post-card {
+  padding: 15px;
+  background-color: #2229345a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.account-detail {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-detail h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+.post-date {
+  color: gray;
+  font-size: 14px;
+}
+
+.post-content {
+  color: rgb(204, 204, 204);
+}
+
+.icon-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 22px;
+  color: #3182CE;
+}
+
+.icon-container i {
+  transition: all ease 0.3s;
+}
+
+.icon-container i:hover {
+  transform: translateY(-5px);
+}
