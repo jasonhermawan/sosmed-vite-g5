@@ -6,15 +6,18 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsThreeDots} from 'react-icons/bs';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import PostsInfoUser from '../../components/Posts-info-user/PostsInfoUser';
+import './infoUser.css'
 
 function InfoUser () {
-    return <Flex m={"auto"} w={"598.4px"}   height={"2000vh"} backgroundColor={"black"} flexDirection={"column"} border={"1px solid white"} >
+  
+
+    return <Flex className='container'  position={"relative"} m={"auto"} w={"598.4px"}  minH={"150vh"} height={"150vh"} overflowY={"scroll"}   backgroundColor={"black"} flexDirection={"column"} border={"1px solid gray"}>
         <NavbarInfoUser/>
         <Box mt={"60px"}>
             <img src="https://pbs.twimg.com/profile_banners/76766018/1655740377/1500x500" alt="" />
         </Box>
         <Box>
-        <Avatar pos={"absolute"} top={"180px"} ml={"15px"} size={"2xl"} border={"4px solid black"} src='https://bit.ly/broken-link' />
+        <Avatar position={"absolute"} top={"188px"} ml={"15px"} size={"2xl"} border={"4px solid black"} src='https://bit.ly/broken-link' />
         </Box>
 
         {/* PROFILE  */}
@@ -24,7 +27,7 @@ function InfoUser () {
             <Box w={"50%"} h={"100%"} backgroundColor={"black"} display={"flex"} justifyContent={"flex-end"} >
             <ButtonProfile main={<BsThreeDots color='white' fontSize={"25px"}/>}  />
             <ButtonProfile main={<AiOutlineMail color='white' fontSize={"30px"}/>}/>
-            <Button  backgroundColor={"white"} color={"black"} borderRadius={"50px"} h={"100%"} w={"120px"} mr={"10px"}>
+            <Button  backgroundColor={"white"} color={"black"} borderRadius={"50px"} h={"100%"} w={"120px"} mr={"15px"}>
              Follow
             </Button>
             </Box>
@@ -63,9 +66,7 @@ function InfoUser () {
 
   <TabPanels >
     <TabPanel>
-    <PostsInfoUser post="Test Z app"  />
-    <PostsInfoUser post="Halo guys lorem ipsum dolor sit op li amet nianga kamilu kabsii hasbis kashasjfbasicascn  sdfaskfnasi jubsfj tanpamu tanpa nya kamu ketika agus baksi mie ayam menjual borak dengan ini kamu menyatakan tanpa aikuk ikatan mahasiswa kimia drengan olahraga dengan di mintai ijazah saat melakukan lomba kegiatan 17"/>
-    <PostsInfoUser post="halo semua" />
+    <PostsInfoUser />
     </TabPanel>
   </TabPanels>
 </Tabs>

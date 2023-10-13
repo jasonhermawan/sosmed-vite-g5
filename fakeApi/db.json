@@ -11,13 +11,20 @@
     {
       "id": 1,
       "caption": "Dummy Post",
-      "img": "https://tampang.com/tm_images/article/23398bd338b226aa.jpg",
       "userId": 1,
+      "date": "2023-10-12"
+    },
+    {
+      "id": 2,
+      "caption": "Test post aja Z App",
+      "userId": 2,
+      "date": "2023-10-12"
+    },
+    {
+      "id":3,
+      "caption": "Berjalan ke tepi pantai menggunakan sepeda motor",
+      "userId": 3,
       "date": "2023-10-12"
     }
   ]
 }
-
-
-
-
