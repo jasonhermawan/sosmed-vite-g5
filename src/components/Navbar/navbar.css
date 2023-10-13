@@ -1,0 +1,96 @@
+#navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  /* border-right: solid 1px rgba(207, 207, 207, 0.277); */
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  /* margin-right: 50px; */
+  position: fixed;
+  z-index: 100;
+}
+
+#logo-menu {
+  margin-bottom: 30px;
+}
+
+#logo-menu img{
+  height: 30px;
+}
+
+.nav-menu {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all ease 0.3s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav-menu h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-menu i {
+  font-size: 22px;
+}
+
+.nav-menu:hover {
+  color: #3182CE;
+}
+
+#profile-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-name h3 {
+  font-weight: 500;
+}
+
+.profile-name p {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Modal */
+
+.add-post-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.char-count p {
+  text-align: right;
+  color: gray;
+}
+
+.add-post-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-container {
+  display: flex;
+  gap: 25px;
+  font-size: 22px;
+  color: #3182CE;
+}
+
+.seperator {
+  border-top: solid 1px rgba(207, 207, 207, 0.277);
+  opacity: 0.7;
+}
